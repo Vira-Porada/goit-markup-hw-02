@@ -2,6 +2,31 @@ body {
   background-color: #ffffff;
   color: #757575;
 }
+.logo {
+  color: #212121;
+  .logo < .logo-web {
+  colour: #2196F3
+  } 
+  .logo < .logo-studio {color:#212121 ;
+}
+
+.list {
+  list-style: none;
+}
+/* site-nav */
+.site-nav a{
+  color:#212121 ;
+}
+.site-nav .link:hover,
+.site-nav .link:focus
+ {color: #2196F3; 
+}
+  
+  
+  :focus color: #2196F3;
+}
+
+
 /* вторинний колір фону #F5F4FA */
 /*колір основного тексту #212121*/
 /*колір вторинного тексту #757575*/
