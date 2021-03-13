@@ -141,8 +141,8 @@ footer {
   font-style: normal;
 }
 
-.adress-link .link:hover,
-.adress-link .link:focus {
+.adress-link.link:hover,
+.adress-link.link:focus {
   color: var(--accent-colour);
 }
 
@@ -169,4 +169,8 @@ footer {
   letter-spacing: 0.06em;
   text-decoration: none;
   color: var(--title-colour);
+}
+
+.current a {
+  color: var(--accent-colour);
 }
