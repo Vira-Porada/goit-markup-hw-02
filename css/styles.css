@@ -145,3 +145,28 @@ footer {
 .adress-link .link:focus {
   color: var(--accent-colour);
 }
+
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--title-colour);
+  background-color: var(--light-bg-colour);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--ligth-text-colour);
+  background-color: var(--accent-colour);
+}
+
+.works-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  color: var(--title-colour);
+}
