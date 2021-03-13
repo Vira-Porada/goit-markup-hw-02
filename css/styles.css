@@ -16,6 +16,18 @@ body {
   color: var(--main-text-colour);
   background-color: var(--background-colour);
 }
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
 .logo {
   color: var(--title-colour);
   font-family: Raleway;
@@ -118,6 +130,7 @@ footer {
 
 .adress-item {
   font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   color: var(--ligth-text-colour);
@@ -125,6 +138,7 @@ footer {
 
 .adress-link {
   color: var(--ligth-text-colour);
+  font-style: normal;
 }
 
 .adress-link .link:hover,
